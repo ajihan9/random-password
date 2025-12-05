@@ -1,0 +1,53 @@
+# ===============================
+#  Streamlit Custom UI Theme
+# ===============================
+
+[theme]
+# 전체 테마 모드 (light / dark)
+base="dark"
+
+# 기본 포인트 색상(버튼, 강조 표시)
+primaryColor="#4CAF50"          # 초록 계열
+
+# 배경 컬러
+backgroundColor="#1E1E1E"       # 다크 모드용 진한 회색
+
+# 사이드바 배경 컬러
+secondaryBackgroundColor="#2A2A2A"
+
+# 글자 색
+textColor="#FFFFFF"
+
+# 폰트 종류 (sans serif / serif / monospace)
+font="sans serif"
+
+# ===============================
+#  Layout / Behavior
+# ===============================
+
+[server]
+# 앱을 실행할 때 자동으로 브라우저 열기
+headless = true
+
+[browser]
+gatherUsageStats = false
+
+# 탭 이름 설정
+title = "랜덤 비밀번호 생성기"
+
+# Favicon (탭 아이콘)
+# 로고를 static 폴더에 두었다면 ↓
+# favicon = "static/icon.png"
+
+
+# ===============================
+#  UI Feature Tweaks
+# ===============================
+
+[client]
+# 스크롤이 부드럽게 움직이도록
+toolbarMode = "viewer"   # viewer / auto / minimal
+
+# 페이지 최대 폭을 넓게(넓은 화면 사용)
+# wide 모드와 동일한 효과
+showErrorDetails = false
